@@ -40,12 +40,12 @@ namespace Tanks
                 },
                 {
                     ""name"": ""Movement"",
-                    ""type"": ""Button"",
+                    ""type"": ""Value"",
                     ""id"": ""ad519347-896e-400d-a2d3-e24814e1a97d"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
-                    ""initialStateCheck"": false
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -61,15 +61,59 @@ namespace Tanks
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": """",
-                    ""id"": ""b58035ed-d9b4-43d2-bfc3-c6637e387bf9"",
-                    ""path"": """",
+                    ""name"": ""WASD"",
+                    ""id"": ""0e24985b-ef31-46d1-9ef4-e6ba82146754"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""ce07c651-de31-48c4-b31a-41de4f97d932"",
+                    ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Movement"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": false
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""6897b90c-1a1d-43c4-8ab3-6340746b64be"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""3c63cfad-8a26-445c-b547-3c355af675e3"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""6d9ede38-ad24-4b37-96aa-8b8052ee8ed8"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         },
@@ -79,12 +123,12 @@ namespace Tanks
             ""actions"": [
                 {
                     ""name"": ""Focus"",
-                    ""type"": ""Button"",
+                    ""type"": ""Value"",
                     ""id"": ""ffb9fabb-e2cd-4087-9a58-af10d9e624da"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
-                    ""initialStateCheck"": false
+                    ""initialStateCheck"": true
                 },
                 {
                     ""name"": ""Fire"",
@@ -99,23 +143,23 @@ namespace Tanks
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""cc9c1e5d-99f1-4d34-9e2a-3e9f5d0e8cb7"",
-                    ""path"": """",
+                    ""id"": ""5234184c-c83f-4d04-beb3-56643b1cf3fd"",
+                    ""path"": ""<Keyboard>/e"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Focus"",
+                    ""action"": ""Fire"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""5234184c-c83f-4d04-beb3-56643b1cf3fd"",
-                    ""path"": """",
+                    ""id"": ""0b0b462d-f9c2-4257-8d8d-af0253a5645f"",
+                    ""path"": ""<Mouse>/delta"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Fire"",
+                    ""action"": ""Focus"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
