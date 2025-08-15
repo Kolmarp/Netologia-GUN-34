@@ -2764,6 +2764,7 @@ GameObject:
   - component: {fileID: 9212656629882518456}
   - component: {fileID: 537770069720541755}
   - component: {fileID: 5232551103852541329}
+  - component: {fileID: 7545715461460601452}
   m_Layer: 5
   m_Name: Message
   m_TagString: Untagged
@@ -2784,7 +2785,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7056290401058518451}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 6}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 187.5}
@@ -2831,7 +2832,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
+  m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
     topLeft: {r: 1, g: 1, b: 1, a: 1}
@@ -2889,6 +2890,26 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!111 &7545715461460601452
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6198812591032195053}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: d257e6580fa0ba84aa53decb9b8a2c90, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: d257e6580fa0ba84aa53decb9b8a2c90, type: 2}
+  - {fileID: 7400000, guid: 8cb9f4dccfbe2a8498e2861cae236610, type: 2}
+  - {fileID: 7400000, guid: 33bea6d26ce0e8143b502fe208494156, type: 2}
+  - {fileID: 7400000, guid: 2c2687883f925694c82571e7dfbf7399, type: 2}
+  - {fileID: 7400000, guid: b03f87e034b5ac442b91e4826f936064, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &6432809572906839751
 GameObject:
   m_ObjectHideFlags: 0
